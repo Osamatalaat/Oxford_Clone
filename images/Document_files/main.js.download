@@ -1,0 +1,10 @@
+
+
+var str = [prompt("enter the word")];
+console.log(str.reverse());
+if (str == str.reverse()){
+    alert("palindrome");
+}
+else{
+    alert("non palindrome");
+}
